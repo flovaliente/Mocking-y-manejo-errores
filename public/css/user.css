@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.tit {
+    color: #222222;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.container{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+    max-width: 500px !important; 
+}
+
+.user-container{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}

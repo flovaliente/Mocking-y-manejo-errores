@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+<div class="container">
+    <div class="user-container">
+      <div class="tit">Mi cuenta</div>
+      <div class="user-card">
+        <h2>{{user.firstName}} {{user.lastName}}</h2>
+        <p><strong>Email:</strong> {{user.email}}</p>
+        <p><strong>Age:</strong> {{user.age}}</p>
+        <p><strong>Role:</strong> {{user.role}}</p>
+      </div>
+      <a class="logout" href="/api/users/logout">Logout</a>
+    </div>
+</div>
